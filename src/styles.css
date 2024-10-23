@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Stanley";
+  src: url("./assets/fonts/Stanley.otf")
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ img {
+  max-width: 100%;
+ }
+
+ .icon--sm {
+  height: 18px;
+  width: 18px;
+ }
+ .icon--md {
+  height: 32px;
+  width: 32px;
+ }
+ .icon--lg {
+  height: 64px;
+  width: 64px;
+ }
